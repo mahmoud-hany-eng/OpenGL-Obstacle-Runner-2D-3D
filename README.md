@@ -72,9 +72,11 @@ Both versions were built from scratch using **OpenGL and GLUT**, without any ext
 OpenGL-Obstacle-Runner-2D-3D/
 │
 ├── 2D-version/
+│   └── Project2D.cbp
 │   └── main.cpp
 │
 ├── 3D-version/
+│   └── Project3D.cbp
 │   └── main.cpp
 │
 ├── README.md
@@ -89,8 +91,8 @@ OpenGL-Obstacle-Runner-2D-3D/
 1. Open the project in **Code::Blocks**
 2. Ensure OpenGL and GLUT libraries are properly configured
 3. Build and run either:
-   - `2D-version/main.cpp`
-   - `3D-version/main.cpp`
+   - `2D-version/Project2D.cbp`
+   - `3D-version/Project3D.cbp`
 
 ---
 
