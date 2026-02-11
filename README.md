@@ -106,6 +106,16 @@ This project highlights:
 
 ---
 
+## 🧠 Engineering Decisions
+
+- Designed a structured game state system using enums to manage transitions between Menu, Character Select, Gameplay, and Game Over.
+- Implemented procedural obstacle spawning to simulate infinite gameplay.
+- Used frame-based updates to ensure consistent animation timing.
+- Built collision detection manually without external physics libraries.
+- Structured the code for separation between rendering logic and gameplay logic.
+
+---
+
 ## 👤 Author
 
 **Mahmoud Hany Amarah**  
