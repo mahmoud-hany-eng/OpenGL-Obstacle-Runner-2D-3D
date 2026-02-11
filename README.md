@@ -1,72 +1,119 @@
-OpenGL Obstacle Runner (2D & 3D)
+# OpenGL Obstacle Runner (2D & 3D)
 
-A 2D and 3D obstacle avoidance game developed in C++ using OpenGL (GLUT).
+A 2D and 3D obstacle avoidance game developed in **C++ using OpenGL (GLUT)**.
 
-This project demonstrates real-time rendering, collision detection, state management, and dynamic difficulty scaling using procedural gameplay logic.
+This project demonstrates real-time rendering, collision detection, state management, procedural obstacle generation, power-up systems, and dynamic difficulty scaling — all built without using a game engine.
 
-Project Overview
+---
 
-This repository contains two implementations:
+## 📌 Project Overview
 
-2D Version – Top-down obstacle avoidance game
+This repository contains **two implementations** of the same game concept:
 
-3D Version – Perspective-based runner with depth simulation
+### 🟦 2D Version
+A top-down obstacle avoidance game where the player moves left and right to avoid falling obstacles.
 
-Both versions were built from scratch using OpenGL and GLUT without any external game engine.
+### 🟥 3D Version
+A perspective-based endless runner featuring depth simulation, forward movement illusion, and enhanced visual rendering.
 
-Core Features
-Game Mechanics
+Both versions were built from scratch using **OpenGL and GLUT**, without any external game engine.
 
-Player movement (left / right controls)
+---
 
-Real-time obstacle spawning
+## 🎮 Core Gameplay Mechanics
 
-Collision detection system
+- Left / Right player movement
+- Real-time obstacle spawning
+- Collision detection system
+- Score tracking
+- Time tracking
+- Dynamic speed increase over time
+- Game states (Menu, Character Select, Playing, Game Over)
 
-Score tracking
+---
 
-Time tracking
+## 🟪 3D Version Features
 
-Dynamic speed increase over time
+- Perspective rendering
+- Simulated forward depth movement
+- Lane-based obstacle system
+- Power-up mechanics:
+  - Invincibility
+  - Half speed
+  - Double score
+- Dynamic difficulty scaling
 
-3D Version Features
+---
 
-Perspective rendering
+## 🧱 Technical Concepts Demonstrated
 
-Simulated depth movement
+- OpenGL rendering pipeline
+- GLUT window and input handling
+- State management using enums
+- Procedural gameplay logic
+- Frame-based animation updates
+- Basic collision detection algorithms
+- Real-time game loop structure
 
-Power-up system:
+---
 
-Invincibility
+## 🛠️ Technologies Used
 
-Half speed
+- C++
+- OpenGL
+- GLUT (OpenGL Utility Toolkit)
+- Code::Blocks IDE
 
-Double score
+---
 
-Increasing difficulty scaling
+## 📂 Project Structure
 
-2D Version Features
+```
+OpenGL-Obstacle-Runner-2D-3D/
+│
+├── 2D-version/
+│   └── main.cpp
+│
+├── 3D-version/
+│   └── main.cpp
+│
+├── README.md
+├── LICENSE
+└── .gitignore
+```
 
-Continuous falling obstacle generation
+---
 
-Speed scaling
+## ▶️ How to Run
 
-Simple collision logic
+1. Open the project in **Code::Blocks**
+2. Ensure OpenGL and GLUT libraries are properly configured
+3. Build and run either:
+   - `2D-version/main.cpp`
+   - `3D-version/main.cpp`
 
-Menu system and character selection
+---
 
-Technical Concepts Used
+## 🚀 What This Project Shows
 
-OpenGL rendering pipeline
+This project highlights:
 
-GLUT event handling
+- Understanding of graphics programming fundamentals
+- Ability to implement game mechanics from scratch
+- Clean state management design
+- Structured C++ programming
+- Rendering without a game engine
 
-Game state management (menu, playing, game over)
+---
 
-Timers and frame updates
+## 👤 Author
 
-Procedural object spawning
+**Mahmoud Hany Amarah**  
+Computer Engineering Student  
+Focus Areas: Embedded Systems, Networking, Graphics Programming, and Systems Development
 
-Bounding-box collision detection
+---
 
-Basic 3D transformations
+## 📜 License
+
+This project is licensed under the MIT License.
